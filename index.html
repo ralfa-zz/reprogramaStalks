@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{reprograma} // STALKS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png" />
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/main.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div>
+            <a href="./index.html">
+                <img src="./assets/img/logo.png" alt="Logo da Reprograma Stalks">
+            </a>
+        </div>
+
+        <div>
+            <ul class="menu wt">
+                <li>
+                </li>
+                <li class="navbar-item navbar-button navbar-dropdown">
+                    <a href="#">// Turmas</a>
+                    <div class="dropdown-arrow"></div>
+                    <ul class="dropdown-content">
+                        <li>
+                            <a href="./index.html">Geral</a>
+                        </li>
+                        <li>
+                            <a href="./turma-05.html">Turma 5</a>
+                        </li>
+                        <li>
+                            <a href="#">Turma 4</a>
+                        </li>
+                        <li>
+                            <a href="#">Turma 3</a>
+                        </li>
+                        <li>
+                            <a href="#">Turma 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Turma 1</a>
+                        </li>
+                    </ul>
+
+                </li>
+                <li class="li-btn">
+                    <a class="join-btn" href="#">Quero fazer parte</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header id="general">
+        <div class="container-general">
+            <div class="intro">
+                <h1 class="pl">Reprograma
+                    <span class="all-caps">Stalks</span>
+                </h1>
+                <p class="lead wt">Pesquisa e referências sobre as alunas e sobre o desempenho do curso {reprograma} de Front end e empoderamento
+                    feminino
+                </p>
+            </div>
+
+            <div class="first-stats">
+                <div class="destaque">
+                    <p class="feat wt">86%</p>
+                    <div>
+                        <img src="./assets/img/stars.png" alt="cinco estrelas">
+                    </div>
+                    <p class="all-caps wt">Avaliam o curso como
+                        <br>
+                        <span style="font-size: 18px">muito importante</span>
+                        <br> para a sua carreira</p>
+                </div>
+
+                <div class="destaque quote">
+                    <p class="feat wt">100%</p>
+                    <div>
+                        <img src="./assets/img/hearts.png" alt="cinco corações">
+                    </div>
+                    <p class="all-caps wt">Mantém Contato com
+                        <br>
+                        <span style="font-size: 18px">alunas/ membros</span>
+                        <br>depois do programa</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="column">
+                <h2 class="wt">Interesse Profissional</h2>
+                <div class="chart-01">
+                    <!-- chart 01 Interesse profissional Geral -->
+                    <div class="chart-big" id="canvas-holder">
+                        <canvas id="chart-geral-01"></canvas>
+                    </div>
+                </div>
+                <p class="feat wt" style="margin: -150px 0 100px 0; text-align: center;">72%</p>
+                <p class="legend wt">Continuam interessadas em Tech</p>
+            </div>
+            <br>
+            <div>
+                <h2 class="wt">Demografia</h2>
+                <div class="column-demografia">
+                    <div>
+                        <!-- chart 02 Distribuição etária Geral -->
+                        <div class="chart-small" id="canvas-holder">
+                            <canvas id="chart-geral-02"></canvas>
+                        </div>
+
+                        <p class="feat wt" style="margin: -90px 0 40px 0; text-align: center;">51%</p>
+                        <p class="legend wt">Entre 26 e 35 anos</p>
+                    </div>
+                    <br>
+                    <div>
+                        <div class="chart-small" id="canvas-holder">
+                            <canvas id="chart-geral-03"></canvas>
+                        </div>
+                        <p class="feat wt" style="margin: -90px 0 40px 0; text-align: center;">9%</p>
+                        <p class="legend wt">Têm filhos</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column-maps">
+                <h2 class="wt">Origens fora de São Paulo, SP</h2>
+                <div>
+                    <!-- chart 03 Lugares de origem das alunas -->
+                    <img class="bottom" src="./assets/img/grafico04-over.jpg" />
+                    <img class="top" src="./assets/img/grafico04.jpg" />
+                    <!-- <img src="./assets/img/grafico04.png" alt="mapa"> -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <footer>
+        <p>Made with ❤ by Rafaella Volkmann and {reprograma}, 2018</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
